@@ -3,8 +3,8 @@
 function Phone(brand,version, price, color) {
     this.brand = brand;
     this.version = version;
-	this.price = price;
-	this.color = color;
+    this.price = price;
+    this.color = color;
 }
 
 Phone.prototype.printInfo = function() {
