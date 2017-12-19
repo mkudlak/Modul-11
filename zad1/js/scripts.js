@@ -1,6 +1,6 @@
 
 
-function Phone(brand,version, price, color) {
+function Phone(brand, version, price, color) {
     this.brand = brand;
     this.version = version;
     this.price = price;
