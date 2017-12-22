@@ -1,0 +1,105 @@
+body {
+    background-color: rgb(41, 35, 35);
+    color: white;
+    text-transform: uppercase;
+    margin: 0px auto;
+    padding: 10px;
+    .title {
+        text-align: center;
+        .material-icons {
+            display: inline;
+            font-size: 30px;
+        }
+        h1 {
+            display: inline;
+            font-family: "Berkshire Swash", cursive;
+            font-size: 50px;
+            background: -webkit-linear-gradient(top, rgb(159, 224, 240), rgb(0, 140, 255));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .create-column {
+            font-size: 20px;
+            font-family: "Open Sans Condensed", sans-serif;
+            font-weight: 700;
+            letter-spacing: 2px;
+            color: white;
+            text-shadow: rgba(92, 91, 91, 0.604) 3px 2px;
+            text-align: center;
+            cursor: pointer;
+            text-transform: uppercase;
+            padding: 15px;
+            border-width: initial;
+            border-style: none;
+            border-color: initial;
+            border-image: initial;
+            border-radius: 12px;
+            background: linear-gradient(rgb(0, 204, 255), rgb(0, 140, 255));
+        }
+    }
+    .column-container {
+        background-color: rgba(92, 91, 91, 0.604);
+        text-align: center;
+        display: flex;
+        justify-content: space-around;
+        height: 60vh;
+        padding: 10px;
+        margin: 0px 20px;
+        .column {
+            display: inline-block;
+            height: 100%;
+            width: 100%;
+            border-right: 1px solid;
+            .btn-delete, .add-card {
+                font-size: 25px;
+                cursor: pointer;
+                text-transform: uppercase;
+                font-family: "Open Sans Condensed", sans-serif;
+                letter-spacing: 2px;
+                color: white;
+                border-width: 1px;
+                border-style: solid;
+                border-color: initial;
+                border-image: initial;
+                background: none;
+            }
+            h2 {
+                font-family: "Berkshire Swash", cursive;
+                font-size: 40px;
+                margin: 20px 0px;
+            }
+            ul, menu, dir {
+                list-style-type: none;
+                text-align: center;
+                cursor: pointer;
+                color: rgb(159, 224, 240);
+                font-size: 15px;
+                font-family: "Open Sans Condensed", sans-serif;
+                letter-spacing: 2px;
+                padding: 0px;
+                .btn-delete {
+                    font-size: 15px;
+                    margin-right: 2px;
+                }
+                li > p {
+                    display: inline;
+                }
+            }
+            .column:first-child {
+                border-left: 1px solid;
+            }
+        }
+        
+    }
+    footer h1 {
+        text-align: center;
+        margin-top: 30px;
+        text-transform: lowercase;
+        font-family: "Berkshire Swash", cursive;
+        font-size: 20px;
+        padding: 10px;
+        background: -webkit-linear-gradient(top, rgb(159, 224, 240), rgb(0, 140, 255));
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+}
